@@ -36,11 +36,18 @@
 </head>
 
 <body class="font-manrope">
+
+    <!-- adjust padding for responsive & look and feel the codes -->
+    <!-- do the do-it-yourself section below -->
+
     <header class="header container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+        <!-- <div class="hero"> -->
+        <div class="my-20">
+            <!-- <div class="hero-content flex-col lg:flex-row-reverse"> -->
+            <div class="flex flex-col lg:flex-row-reverse justify-between items-center">
                 <div class="">
-                    <img src="./images/banner.png" class="max-w-sm" />
+                    <!-- <img src="./images/banner.png" class="max-w-sm" /> -->
+                    <img src="./images/banner.png" class="" />
                     <!-- ratings badge -->
                     <div class="-mt-20 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
                         <i class="fa-solid fa-star text-3xl text-amber-400"></i>
@@ -57,7 +64,9 @@
                         Tea House</h1>
                     <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                         exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <!-- <button class="btn btn-primary">Explore More</button> -->
+                    <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More <i
+                            class="fa-solid fa-arrow-trend-up"></i></button>
                 </div>
             </div>
         </div>
@@ -150,7 +159,7 @@
                     <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour, or randomized words which
                         don't look even slightly believable.</p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn bg-white text-red-600">Show All</button>
                 </div>
             </div>
             <!-- review container -->
@@ -200,12 +209,13 @@
         </section>
     </main>
 
-    <footer class="px-48 py-10 bg-base-200 text-base-content">
+    <!-- <footer class="px-48 py-10 bg-base-200 text-base-content"> -->
+    <footer class="px-4 lg:px-48 py-10 bg-base-200 text-base-content">
         <div class="flex justify-between my-24">
             <img src="./images/cup.png" alt="" class="">
             <p class="">
                 <span>Ready to get started?</span>
-                <button class="btn btn-primary">Get Started</button>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Started</button>
             </p>
 
         </div>
@@ -240,7 +250,8 @@
                         <!-- <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> -->
                         <input type="text" placeholder="username@site.com"
                             class="bg-transparent border-b-2 border-black outline-none py-4" />
-                        <button class="btn btn-primary absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end text-white border-none">
+                        <button
+                            class="btn absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end text-white border-none">
                             <i class="fa-solid fa-angle-right"></i>
                         </button>
                     </div>
